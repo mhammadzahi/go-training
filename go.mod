@@ -1,4 +1,4 @@
-module github.com/mhammadzahi/go-training
+module tutorial.sqlc.dev/app
 
 go 1.22.1
 

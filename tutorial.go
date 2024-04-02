@@ -14,7 +14,7 @@ import (
 func run() error {
 	ctx := context.Background()
 
-	db, err := sql.Open("mysql", "root@/mysql-golang?parseTime=true")
+	db, err := sql.Open("mysql", "root@/test?parseTime=true")
 	if err != nil {
 		return err
 	}
